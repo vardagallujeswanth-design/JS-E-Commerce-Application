@@ -2,7 +2,6 @@
 
 hey! this is my first react project. its a simple online store where you can browse apple products and add them to a cart.
 
-i made this to practice react and understand how routing, context api and localstorage actually work in a real project.
 
 ---
 
@@ -47,7 +46,7 @@ http://localhost:5173
 - free shipping, returns, secure checkout info at the bottom
 
 **Products Page**
-- all 8 products shown in a grid
+- all products shown in a grid
 - search by product name or description
 - filter by category
 - sort by price or name
@@ -59,6 +58,7 @@ http://localhost:5173
 - increase or decrease quantity with + and - buttons
 - remove single items
 - clear full cart button
+- save cart button for storing list of items in the local storage
 - order summary with subtotal, shipping and 18% gst
 - free shipping on orders above 50,000
 - cart stays saved even after page refresh
