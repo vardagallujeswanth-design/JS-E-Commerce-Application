@@ -82,7 +82,7 @@ http://localhost:5173
 ---
 
 ## folder structure
-
+```
 src/
   Components/    - Navbar, ProductCard, CartItem
   Pages/         - Home, Products, Cart
@@ -91,6 +91,7 @@ src/
   App.jsx
   index.css
 
+```
 ---
 
 ## known issues
