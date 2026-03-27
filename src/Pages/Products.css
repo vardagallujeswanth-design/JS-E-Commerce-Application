@@ -1,0 +1,124 @@
+*{
+  box-sizing: border-box;
+  
+}
+
+
+
+.productsPage {
+  padding: 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* Top */
+.topArea {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 28px;
+}
+
+.countText {
+  color: #aaa;
+  font-size: 14px;
+}
+
+/* Controls */
+.controls {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+/* Search */
+.searchBar {
+  display: flex;
+  align-items: center;
+  background: #111;
+  padding: 6px 10px;
+  border-radius: 6px;
+  flex: 1;
+}
+
+.searchBar input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  margin-left: 5px;
+  width: 100%;
+}
+
+.icon {
+  color: #888;
+}
+
+.clearBtn {
+  background: none;
+  border: none;
+  color: #aaa;
+  cursor: pointer;
+}
+
+/* Sort */
+.sortBox {
+  background: #111;
+  color: white;
+  border: 1px solid #333;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+/* Filters */
+.filterRow {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.filterBtn {
+  background: #1e1e1e;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.filterBtn.active {
+  background: violet;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+}
+
+/* Empty */
+.emptyBox {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.emoji {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.resetBtn {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background: violet;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}

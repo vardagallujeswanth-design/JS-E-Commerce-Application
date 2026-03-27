@@ -1,0 +1,75 @@
+.homePage {
+  padding: 20px;
+}
+
+
+.topSection {
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+
+.smallText {
+  color: #aaa;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.mainTitle {
+  font-size: 2.5rem;
+  color: violet;
+  margin-bottom: 20px;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+
+.rightSide {
+  margin-top: 30px;
+}
+
+.boxList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.box {
+  background: #1e1e1e;
+  padding: 12px 20px;
+  border-radius: 8px;
+  width: 200px;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.box:hover {
+  transform: scale(1.05);
+}
+
+.infoRow {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  border-top: 1px solid #222;
+  padding-top: 20px;
+}
+
+.infoItem {
+  text-align: center;
+  margin: 10px;
+  color: #ccc;
+}
+
+.infoItem span {
+  font-size: 1.5rem;
+  display: block;
+  margin-bottom: 5px;
+}

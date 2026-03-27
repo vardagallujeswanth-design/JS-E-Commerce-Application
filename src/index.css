@@ -1,0 +1,320 @@
+*{
+  box-sizing: border-box;
+
+
+}
+.navbar {
+  background: #111;
+  padding: 10px 20px;
+}
+
+
+.navbar-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+.cart-link {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  position: relative;
+}
+
+
+.nav-link {
+  text-decoration: none;
+  color: #aaa;
+  font-size: 25px;
+  font-weight: bold;
+}
+/* for underline when opend that page */
+.nav-link.active {
+  color: white;
+  border-bottom: 2px solid violet;
+}
+
+/*number of items in cart*/
+.cart-badge {
+  background: violet;
+  color: white;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 50%;
+  position: absolute;
+  top: -5px;
+  right: -10px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  background: #111;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.cart-label{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+.item-emoji img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+
+.item-details {
+  flex: 2;
+}
+
+
+.item-controls {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.quantity-control {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.qty-btn {
+  padding: 4px 10px;
+  cursor: pointer;
+}
+
+
+.item-subtotal {
+  min-width: 120px;
+  text-align: right;
+  font-weight: bold;
+}
+
+
+.remove-btn {
+  background: transparent;
+  border: none;
+  color: red;
+  font-size: 18px;
+  cursor: pointer;
+}
+body {
+  margin: 0;
+
+  font-family: "Segoe UI", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.navbar {
+  background: black;
+  color: white;
+  padding: 10px 20px;
+  border-bottom: 1px solid gray;
+}
+
+.navbarInner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+.navLinks a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: lightgray;
+}
+
+.navLinks a:hover {
+  color: white;
+}
+
+
+.footer {
+  margin-top: 20px;
+  padding: 15px;
+  text-align: center;
+  border-top: 1px solid gray;
+}
+
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+}
+html, body {
+  height: 100%;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+
+h1 {
+  font-size: 40px;
+  margin: 20px 0;
+  color: black;
+}
+
+h2 {
+  font-size: 22px;
+  margin-bottom: 8px;
+  color: black;
+}
+
+p {
+  margin: 0;
+}
+
+
+code {
+  background: lightyellow;
+  padding: 3px 6px;
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+}
+
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: black;
+    color: lightgray;
+  }
+
+  #root {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+  }
+
+  h1,
+  h2 {
+    color: white;
+  }
+
+  code {
+    background: #222;
+  }
+}
+
+.cardBox {
+  background: #111;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  transition: transform 0.2s ease;
+}
+
+.cardBox:hover {
+  transform: scale(1.03);
+}
+
+
+.cardImg {
+  width: 100%;
+  height: 160px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+
+.tag {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: violet;
+  padding: 3px 8px;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+
+.catText {
+  font-size: 12px;
+  color: #aaa;
+}
+
+.name {
+  margin: 5px 0;
+}
+
+.desc {
+  font-size: 13px;
+  color: #ccc;
+}
+
+
+.bottomRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.price {
+  font-weight: bold;
+}
+
+
+.cartBtn {
+  padding: 5px 10px;
+  background: violet;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.cartBtn.done {
+  background: green;
+}
