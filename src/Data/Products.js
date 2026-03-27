@@ -11,7 +11,7 @@ const products = [
     id: 2,
     name: "iPhone 15 Pro",
     price: 134900,
-    category: "Phones",
+    category: "Mobile",
     description: "Titanium design.",
     image: "/images/iphone.jpg"
   },
@@ -39,14 +39,14 @@ const products = [
     description: "Rugged design.",
     image: "/images/watch.jpg"
   },
-  {
+{
     id: 6,
-    name: "Apple Mouse",
-    price: 12000,
-    category: "Laptops",
-    description: "Powerful wireless mouse.",
-    image: "/images/mouse.jpg"
-  },
+    name: "Apple AirTag",
+    price: 2900,
+    category: "Wearables",
+    description: "Keep track of your items.",
+    image: "/images/airtag.jpg"
+},
   {
     id: 7,
     name: "Apple Monitor",
@@ -58,11 +58,11 @@ const products = [
   },
   {
     id: 8,
-    name: "Apple Magic Trackpad",
-    price: 12000,
-    category: "Laptops",
-    description: "Large multi-touch surface.",
-    image: "/images/trackpad.jpg"
+    name: "Apple ipad plus",
+    price: 120000,
+    category: "Tablets",
+    description: "A powerful tablet with advanced features.",
+    image: "/images/ipad plus.jpg"
   },
   {
     id: 9,
@@ -94,6 +94,22 @@ const products = [
     description: "Smart speaker with advanced audio.",
     image: "/images/Speaker.jpg"
 
+  },
+  {
+    id: 13,
+    name:"Apple 16 pro",
+    price: 149900,
+    category: "Mobile",
+    description: "A powerful smartphone with advanced features.",
+    image: "/images/iphone 16.jpg"
+  },
+   {
+    id: 14,
+    name:"Apple 17 pro",
+    price: 179900,
+    category: "Mobile",
+    description: "A powerful smartphone with advanced features.",
+    image: "/images/iphone 17.jpg"
   }
 ];
 
