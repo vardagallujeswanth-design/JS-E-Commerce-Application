@@ -63,6 +63,37 @@ const products = [
     category: "Laptops",
     description: "Large multi-touch surface.",
     image: "/images/trackpad.jpg"
+  },
+  {
+    id: 9,
+    name: "Apple Keyboard",
+    price: 12000,
+    category: "Laptops",
+    description: "Beautiful and functional keyboard.",
+    image: "/images/keyboard.jpg"
+  },
+  {
+    id: 10,
+    name: "Apple Screen",
+    price: 45000,
+    category: "Laptops",
+    description: "Beautiful and functional screen.",
+    image: "/images/screen.jpg"
+  },{
+    id: 11,
+    name: "Apple AirPods Max",
+    price: 54900,
+    category: "Audio",
+    description: "Premium sound experience.",
+    image: "/images/headphones.jpg"
+  },{
+    id: 12,
+    name: "Apple HomePod",
+    price: 29900,
+    category: "Audio",
+    description: "Smart speaker with advanced audio.",
+    image: "/images/Speaker.jpg"
+
   }
 ];
 
