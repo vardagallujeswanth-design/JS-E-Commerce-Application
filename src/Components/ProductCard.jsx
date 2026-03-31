@@ -7,7 +7,7 @@ const ProductCard = ({ product }) => {
 
   const itemInCart = cart.find((item) => item.id === product.id);
 
-  const handleAdd = () => {
+  const handleAdd = ()=> {
     addToCart(product);
     setClicked(true);
     setTimeout(() => setClicked(false), 1200);

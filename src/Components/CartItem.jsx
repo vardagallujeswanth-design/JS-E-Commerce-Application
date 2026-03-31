@@ -14,11 +14,11 @@ const CartItem = ({ item, onUpdateQuantity, onRemove, formatPrice }) => {
       <div className="item-controls">
         <div className="quantity-control">
           <button className="qty-btn" onClick={() => onUpdateQuantity(item.id, -1)}>
-            -
+             - 
           </button>
           <span className="qty-value">{item.quantity}</span>
           <button className="qty-btn" onClick={() => onUpdateQuantity(item.id, 1)}>
-            +
+             + 
           </button>
         </div>
 

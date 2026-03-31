@@ -109,7 +109,8 @@ const products = [
     price: 179900,
     category: "Mobile",
     description: "A powerful smartphone with advanced features.",
-    image: "/images/iphone 17.jpg"
+    image: "/images/iphone 17.jpg",
+    badge: "New"
   }
 ];
 

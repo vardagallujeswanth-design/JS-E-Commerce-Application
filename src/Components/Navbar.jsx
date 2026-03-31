@@ -36,12 +36,12 @@ return (
 
       <Link to="/cart" className="cart-link">
         <span className="cart-icon"> 🧺 </span>
-        <span className="cart-label"> Cart</span>
+        <span className="cart-label"> Cart </span>
         {cartCount > 0 && (
           <span className="cart-badge">{cartCount}</span>
         )}
       </Link>
-
+       
     </div>
   </nav>
 );

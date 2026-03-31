@@ -31,7 +31,7 @@ const saveCart = () => {
           <p>Add some products to get started</p>
 
           <Link to="/products" className="shopBtn">
-            Start Shopping
+            ← Start Shopping
           </Link>
         </div>
       </div>
@@ -94,7 +94,7 @@ const saveCart = () => {
           </div>
 
           {shipping === 0 ? (
-            <p className="note">🎉 Free shipping applied</p>
+            <p className="note">🎉 Free shipping applied 🎉</p>
           ) : (
             <p className="note">
               Add {formatPrice(50000 - cartTotal)} more for free shipping
@@ -106,8 +106,9 @@ const saveCart = () => {
             <span>{formatPrice(total)}</span>
           </div>
 
+         
           <button className="checkoutBtn">Checkout</button>
-
+       
           <Link to="/products" className="backLink">
             ← Continue Shopping
           </Link>

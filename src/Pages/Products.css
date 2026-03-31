@@ -11,7 +11,7 @@
   margin: auto;
 }
 
-/* Top */
+
 .topArea {
   text-align: center;
   margin-bottom: 20px;
@@ -26,7 +26,7 @@
   font-size: 14px;
 }
 
-/* Controls */
+
 .controls {
   display: flex;
   justify-content: space-between;
@@ -35,7 +35,7 @@
   flex-wrap: wrap;
 }
 
-/* Search */
+
 .searchBar {
   display: flex;
   align-items: center;
@@ -65,7 +65,7 @@
   cursor: pointer;
 }
 
-/* Sort */
+
 .sortBox {
   background: #111;
   color: white;
@@ -74,7 +74,7 @@
   border-radius: 6px;
 }
 
-/* Filters */
+
 .filterRow {
   display: flex;
   gap: 10px;
@@ -95,14 +95,14 @@
   background: violet;
 }
 
-/* Grid */
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 15px;
 }
 
-/* Empty */
+
 .emptyBox {
   text-align: center;
   margin-top: 60px;

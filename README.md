@@ -7,7 +7,7 @@ hey! this is my first react project. its a simple online store where you can bro
 
 ## github repo
 
-👉 https://github.com/vardagallujeswanth-design/JS-E-Commerce-Application
+--> https://github.com/vardagallujeswanth-design/JS-E-Commerce-Application
 
 ---
 

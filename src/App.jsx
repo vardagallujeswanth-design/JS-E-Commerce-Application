@@ -20,7 +20,9 @@ function App() {
             </Routes>
           </main>
           <footer className="footer">
+         
             <p>😊 JS ". Unveil the Exceptional ."</p>
+         
           </footer>
         </div>
       </BrowserRouter>

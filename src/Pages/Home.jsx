@@ -28,10 +28,10 @@ const Home = () => {
 
         <div className="rightSide">
           <div className="boxList">
-            <div className="box">💻 Laptops</div>
-            <div className="box">📱 Smartphones</div>
-            <div className="box">🎧 Headphones</div>
-            <div className="box">⌚ Watches</div>
+            <div className="box"> 💻 Laptops</div>
+            <div className="box"> 📱 Smartphones</div>
+            <div className="box"> 🎧 Headphones</div>
+            <div className="box"> ⌚ Watches</div>
           </div>
         </div>
       </div>

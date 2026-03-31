@@ -45,7 +45,7 @@ const Products = () => {
       <div className="controls">
 
         <div className="searchBar">
-          <span className="icon">⌕</span>
+          <span className="icon"> 🔍 </span>
           <input
             type="text"
             placeholder="Search..."
@@ -54,7 +54,7 @@ const Products = () => {
           />
           {searchText && (
             <button className="clearBtn" onClick={() => setSearchText("")}>
-              ×
+              X
             </button>
           )}
         </div>
@@ -91,7 +91,7 @@ const Products = () => {
           <p>Try something else</p>
 
           <button
-            className="resetBtn"
+            className="resetBtn" 
             onClick={() => {
               setSearchText("");
               setSelectedCat("All");
